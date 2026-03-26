@@ -1,20 +1,20 @@
-# 🎬 Movie Recommendation System
+#  Movie Recommendation System
 
 A Machine Learning-based Movie Recommendation System built using Python and Streamlit.
-This app suggests movies based on user selection using content-based filtering.
+This application recommends movies based on similarity using content-based filtering.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* Recommend similar movies instantly
-* Displays movie posters
-* Interactive UI using Streamlit
-* Fast and efficient recommendation system
+* 🎯 Recommend similar movies instantly
+* 🖼️ Displays movie posters
+* ⚡ Fast and interactive UI using Streamlit
+* 🧠 Uses similarity matrix for accurate recommendations
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas
@@ -28,52 +28,52 @@ This app suggests movies based on user selection using content-based filtering.
 
 movie-recommender-system/
 │── app.py
-│── similarity.pkl
-│── movie_dict.pkl
-│── movies.pkl
 │── requirements.txt
 │── README.md
+│── (model files not included)
 
 ---
 
 ## ▶️ How to Run Locally
 
 1. Clone the repository
-   git clone https://github.com/YOUR_USERNAME/movie-recommender-system.git
+   git clone https://github.com/YOUR_USERNAME/MOVIE_RECOMMENDATION_SYSTEM.git
 
-2. Navigate to folder
-   cd movie-recommender-system
+2. Navigate to the folder
+   cd MOVIE_RECOMMENDATION_SYSTEM
 
 3. Install dependencies
    pip install -r requirements.txt
 
-4. Run the app
+4. Run the application
    streamlit run app.py
 
 ---
 
-## 🧠 How It Works
+## ⚠ Important Note (Model Files)
 
-* Uses content-based filtering
-* Calculates similarity between movies
-* Recommends top similar movies
+Due to GitHub file size limits, the trained model files (.pkl) are not included in this repository.
 
 ---
 
-## 📸 Screenshots
+##  How It Works
 
-(Add your app screenshots here)
-
----
-
-## 🔮 Future Improvements
-
-* Add user login system
-* Improve recommendation accuracy
-* Deploy with database
+* Converts movie data into feature vectors
+* Calculates similarity using cosine similarity
+* Recommends top similar movies based on user input
 
 ---
 
-## 👩‍💻 Author
+## Screenshots
 
-Prachi Pundir
+## Login Page
+![Home](screenshot_login_page)
+
+### Recommendation Output
+![Result](screenshot1.png)
+
+
+
+
+
+
